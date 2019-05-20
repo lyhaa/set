@@ -1,0 +1,171 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#miya #minn {
+    background: #f2f2f0;
+}
+
+#miya #minn .minnz .screening {
+    padding: 0 14px;
+    background: #fff;
+    color: #666;
+}
+
+#miya #minn .minnz {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#miya #minn .minnz .screening .selector .key {
+    float: left;
+    width: 73px;
+    padding-right: 14px;
+    text-align: right;
+    color: #999;
+
+}
+
+#miya #minn .minnz .screening .selector {
+    line-height: 24px;
+    overflow: hidden;
+    padding: 8px 0;
+    position: relative;
+    border-bottom: 1px dashed #ececec;
+}
+
+#miya #minn .minnz .screening .selector .contenter {
+    float: left;
+    width: 918px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 60px;
+    overflow: hidden;
+}
+
+#miya #minn .minnz .screening .selector .contenter .k0 a {
+    width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#miya #minn .minnz .screening .selector .contenter .kcon a {
+    float: left;
+    margin-right: 5px;
+    padding: 0 20px 0 10px;
+    color: #222;
+}
+
+#miya #minn .minnz .screening .selector .contenter .kcon {
+    overflow: hidden;
+}
+
+#miya #minn .minnz .screening .selector .contenter .smore {
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    right: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#miya #minn .qsou {
+    height: 44px;
+    border: 1px solid #ededed;
+    line-height: 33px;
+    width: 1100px;
+    margin: 10px auto;
+}
+
+#miya #minn .qsou ul li {
+    float: left;
+    height: 100%;
+    line-height: 42px;
+    padding: 0 20px;
+    background: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+#miya #minn .qsou ul li input:nth-child(4) {
+    background: cadetblue;
+    color: #fff;
+}
+
+#miya #minn .qsou ul li input {
+       outline: none;
+       width: 60px;
+       height: 30px;
+       font-size: 12px;
+       line-height: 30px;
+}
+
+#miya #minn .qsou ul .jia_jian {
+    background: url(../images/list/cafa89b51b6c3a80c916667928fc5b65933993965.png)no-repeat right;
+}
+
+#miya #minn .qsou ul .jia_zeng {
+    background: url(../images/list/94c3e8d393a3b32ed889dfc82f7ce96d934897858.png)no-repeat right;
+}
+
+#miya #minn .minnm {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#miya #minn .minnm .liss {
+    width: 260px;
+    height: 367px;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px 14px 0;
+    background: #fff;
+}
+
+#miya #minn .minnm .liss img {
+    width: 100%;
+}
+
+#miya #minn .minnm .liss .l_b .conten {
+    padding: 6px 10px 0 10px;
+}
+
+#miya #minn .minnm .liss .l_b .paic em {
+    color: #888;
+    font-style: normal;
+    text-decoration: line-through;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+#miya #minn .minnm .liss .l_b {
+    margin-top: 20px;
+}
+
+#miya #minn .minnm .liss .l_b .paic span {
+    color: #f450a2;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+#miya #minn .minnm .box {
+    width: 1100px;
+    height: 35px;
+    clear: both;
+}
+
+#miya #minn .minnm .box #pagination1{
+    margin-left: 28%;
+}

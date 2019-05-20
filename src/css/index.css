@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+body {
+  min-width: 1100px;
+}
+
+#miya #slides1 :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #slides1 .sll1 {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+#miya #slides1 .sll1 :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #slides1 .sll1 ul {
+  position: absolute;
+}
+#miya #slides1 .sll1 ul :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #slides1 .sll1 ul li {
+  float: left;
+}
+#miya #slides1 .sll1 ul li a {
+  width: 100%;
+  display: block;
+}
+#miya #slides1 .sll1 ul li a :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #slides1 .sll1 ul li a img {
+  width: 100%;
+  height: 500px;
+}
+#miya #slides1 .sll1 .qdd .qdd1 {
+  position: relative;
+  top: 200px;
+}
+#miya #slides1 .sll1 .qdd .qdd1 div span:nth-child(1) {
+  left: 50%;
+  transform: translate(-633%, 0);
+}
+#miya #slides1 .sll1 .qdd .qdd1 div span:nth-child(2) {
+  right: 2px;
+}
+#miya #slides1 .sll1 .qdd .qdd1 div span {
+  float: left;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  border-radius: 30%;
+}
+#miya #slides1 .sll1 .qdd .qdd2 {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+}
+#miya #slides1 .sll1 .qdd .qdd2 dl {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+#miya #slides1 .sll1 .qdd .qdd2 dl dd {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  float: left;
+  margin: 0 3px;
+}
+#miya #slides1 .sll1 .qdd .qdd2 dl .acva {
+  background: orange;
+  border: 1px solid #fff;
+}
+#miya #minn {
+  background: #f9f9f9;
+}
+#miya #minn :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #minn .mconn {
+  width: 1100px;
+  margin: auto;
+}
+#miya #minn .mconn :after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#miya #minn .mconn .conn_t {
+  width: 860px;
+  height: 105px;
+  background: #fff;
+  float: right;
+}
+#miya #minn .mconn .conn_t h3 {
+  width: 11.5%;
+  float: left;
+  line-height: 105px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #aaa;
+}
+#miya #minn .mconn .conn_t ul {
+  height: 100%;
+  width: 85.5%;
+  float: left;
+}
+#miya #minn .mconn .conn_t ul li {
+  width: 14.5%;
+  height: 100%;
+  float: left;
+  padding: 0 1%;
+}
+#miya #minn .mconn .conn_t ul li a {
+  margin-top: 15px;
+  display: block;
+}
+#miya #minn .mconn .conn_t ul li a img {
+  width: 100%;
+}
+#miya #minn .mconten {
+  margin: 30px auto;
+  width: 1100px;
+}
+#miya #minn .mconten .recomm h3 {
+  font-size: 24px;
+  color: #222;
+}
+#miya #minn .mconten .recomm h3 .h33 {
+  margin-left: 18px;
+  vertical-align: -1px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #999;
+}
+#miya #minn .mconten .recomm .mconxp li figure {
+  float: left;
+  margin-right: -1px;
+  width: 219px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+#miya #minn .mconten .recomm .mconxp li figure img {
+  width: 100%;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset {
+  border: 0;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset h6 {
+  font-size: 12px;
+  color: #000;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset p {
+  font-size: 13px;
+  color: #666;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset em {
+  font-style: normal;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .title_t {
+  padding-left: 13px;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .l {
+  float: left;
+  padding: 16px 0 15px 12px;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .l .price2 {
+  font-size: 12px;
+  color: #555;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .l .price2 em {
+  text-decoration: line-through;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .l .price1 {
+  font-size: 14px;
+  color: #ff4a49;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .l .price1 em {
+  font-size: 20px;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .r {
+  float: right;
+  width: 90px;
+  padding-top: 16px;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .r .rush {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #ff4a49;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 15px;
+  float: right;
+  margin-right: 15px;
+}
+#miya #minn .mconten .recomm .mconxp li figure fieldset .r .sales {
+  color: #666;
+  font-size: 12px;
+  float: right;
+  margin-top: 3px;
+  margin-right: 21px;
+}
+#miya #minn .mconten .best h3 {
+  font-size: 24px;
+  color: #222;
+  line-height: 30px;
+  padding-top: 22px;
+}
+#miya #minn .mconten .best h3 .hh3 {
+  margin-left: 18px;
+  vertical-align: -1px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #999;
+  line-height: 0;
+}
+#miya #minn .mconten .best .commodity .dity {
+  margin-bottom: 15px;
+  padding: 6px 0;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t {
+  padding: 20px;
+  overflow: hidden;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_l {
+  float: left;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_l a span {
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  float: left;
+  border: 2px solid #f4f4f4;
+  border-radius: 8px;
+  vertical-align: middle;
+  margin-right: 10px;
+  overflow: hidden;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_l a span img {
+  width: 100%;
+  height: 100%;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_l a p {
+  float: left;
+  line-height: 76px;
+  color: #666;
+  font-size: 18px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_r {
+  float: right;
+}
+#miya #minn .mconten .best .commodity .dity .ty_t .d_r a span {
+  display: inline-block;
+  float: right;
+  color: #f72283;
+  border: 1px solid #faa8cd;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 38px;
+  padding: 0 20px;
+  margin-top: 23px;
+  font-size: 14px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo {
+  width: 196px;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo figure img {
+  width: 100%;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo figure fieldset {
+  border: 0;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo figure fieldset p {
+  height: 48px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #222222;
+  font-size: 14px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo figure fieldset span {
+  color: #fa4b9b;
+  font-weight: bold;
+  font-size: 20px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo figure fieldset span em {
+  font-style: normal;
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a .commo .len {
+  color: #f72283;
+  border: 1px solid #faa8cd;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 24px;
+  background: #ffffff;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  white-space: nowrap;
+  max-width: 160px;
+  overflow: hidden;
+  opacity: 0.9;
+  font-size: 12px;
+}
+#miya #minn .mconten .best .commodity .dity .ty_b a:last-child .commo {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

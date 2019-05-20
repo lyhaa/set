@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/comment.css">
+    <link rel="stylesheet" href="../css/img/miyaiconfont/iconfont.css">
+    <script src="../lib/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="../css/good.css">
+</head>
+
+<body>
+    <div id="miya">
+        <div id="head_d">
+            <div id="head_t">
+                <div class="head_t1">
+                    <div class="head1_f fl clearfix">
+                        <a href="###" title="手机蜜芽"><i class="iconfont icon-shouji"></i><span>手机蜜芽</span></a>
+                    </div>
+                    <div class="head1_r fr clearfix">
+                        <ul>
+                            <li class="fl clearfix holl">你好，欢迎来到蜜芽！</li>
+                            <i class="shu1 fl clearfix">|</i>
+                            <li class="fl clearfix wodmy" style="display: none"><a href="###">我的蜜芽<span
+                                        class="sjx"><i>▼</i></span></a>
+                                <ul>
+                                    <li><a href="###">我的订单</a></li>
+                                    <li><a href="###">我的红包</a></li>
+                                    <li><a href="###">我的优惠劵</a></li>
+                                    <li><a href="###">我收藏的品牌</a></li>
+                                    <li><a href="###">我收藏的商品</a></li>
+                                </ul>
+                            </li>
+                            <i class="shu1 fl clearfix">|</i>
+                            <li class="fl clearfix"><a href="../html/regist.html">登录</a></li>
+                            <i class="shu fl clearfix">|</i>
+                            <li class="fl clearfix"><a href="../html/regist.html">免费注册</a></li>
+                            <li class="fl clearfix"><a href="###">帮助中心</a></li>
+                            <i class="shu1 fl clearfix">|</i>
+                            <li class="fl clearfix" style="display: none"><a href="###">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="minn">
+            <div class="both">
+                <div class="fix_l"><img src="../images/images/c28f17d15a13149cfa89f18dc32efb87.png" alt=""></div>
+                <div class="fix_r">
+                    <figure>
+                        <i class="iconfont icon-cart"></i>
+                        <fieldset>购物车</fieldset>
+                    </figure>
+                    <figure>
+                        <i class="iconfont icon-shouye"></i>
+                        <fieldset>咨询</fieldset>
+                    </figure>
+                    <figure>
+                        <i class="iconfont icon-weixin"></i>
+                        <fieldset>微信</fieldset>
+                        <div class="erw"></div>
+                    </figure>
+                    <figure class="cd-top">
+                        <i class="iconfont icon-xiangshangsanjiaoxing"></i>
+                    </figure>
+                </div>
+            </div>
+            <div class="mhead clearfix">
+                <div class="mheadz">
+                    <div class="h_left">
+                        <a href="../indexx.html"><img
+                                src="../images/images/6e9213dbef73af424807b48100a7933a745368439.png" alt=""></a>
+                    </div>
+                    <div class="h_right">
+                        <ul>
+                            <li class="current">1.我的购物车</li>
+                            <li>2.填写核对订单信息</li>
+                            <li>3.成功提交订单</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cata1 clearfix" style="display: none">
+                <div class="cataz">
+                    <p>您还没有为您可爱的宝宝挑选任何商品哦~</p>
+                    <p>您可以去<a href="../indexx.html">首页</a> 挑选宝宝喜欢的商品</p>
+                </div>
+            </div>
+            <div class="c_wrap w1004" id="shopping_cart" style="padding-bottom: 20px;">
+                <div class="c_title yahei">
+                    <span class="myCartTit">我的购物车</span>
+                </div>
+                <div class="c_menu">
+                    <!-- <div class="ci ci0 ">
+                        <div >
+                            <input class="mckall" type="checkbox" value="0" data-checktype="0">
+                        </div>
+                        <label>全选</label>
+                    </div> -->
+                    <div class="ci ci1">商品</div>
+                    <!-- <div class="ci ci2">规格</div> -->
+                    <div class="ci ci3">单价</div>
+                    <div class="ci ci4">数量</div>
+                    <div class="ci ci5">小计</div>
+                    <div class="ci ci6">操作</div>
+                </div>
+                <div class="c_list store_guoneiziying">
+                    <div class="cl_con">
+                        <!-- <div class="cl_tit cl_ clearfix">
+                            <div class="inputwarp checked">
+                                <input class="mckall" type="checkbox" value="0" data-checktype="1">
+                            </div>
+                            <div class="cl_wordsNew">
+
+                                <span>蜜芽国内自营</span>
+
+
+                            </div>
+
+                        </div> -->
+                       
+                    </div>
+                </div>
+                <div class="layerbg" id="layerbg"></div>
+                <div class="c_countn cashier_part" id="cashier_part">
+                    <div class="funcs">
+                        <div class="inputwarp checked"><input class="mckall" type="checkbox" value="0" id="mckall"
+                                data-checktype="0" style="position: absolute"></div>
+                        <label>全选</label>
+                        <a href="javascript:;" id="removeAll" class="removeAll">删除选择商品</a>
+                        <a href="javascript:;" class="removeFail">清除无效商品</a>
+                        <a href="javascript:;" id="batchAddMine" class="batchAddMine">移入收藏夹</a>
+                    </div>
+                    <div class="newCart">
+                        <div class="ze" style="margin-top: 5px;">
+                            <span>合计（不含运费和进口税）：
+                                <label class="newCart_settle_amount">￥682</label></span>
+                        </div>
+                        <!-- <div class="yh">
+                            <span class="bracket" style=""></span>
+                            <span class="thrift_price" style="">已减：￥30</span>
+                            <span class="dot" style="display: none;">，</span>
+                            <span class="taxes_price" style="display:none;">：￥</span>
+                            <span class="bracket" style=""></span>
+                        </div> -->
+                    </div>
+                    <a class="newCart_jies btnJieSuan">去结算</a>
+                </div>
+                <div class="c_combin w1004" id="combination" style="margin-top:20px;"></div>
+            </div>
+        </div>
+        <div id="Nfooter">
+            <div class="Genuine">
+                <div class="w1100">
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g1"></i><b>可信赖</b>进口母婴特卖</a>
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g2"></i><b>无忧</b>正品保证</a>
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g3"></i><b>7天</b>无理由退货</a>
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g4"></i><b>恒温仓</b>完善的货物仓储</a>
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g5"></i><b>24小时</b>快速发货</a>
+                    <a href="###" rel="nofollow" target="_blank"><i class="icon-g6"></i><b>100万</b>妈妈口碑信赖</a>
+                </div>
+            </div>
+            <div class="Nhelp">
+                <div class="w1000 clearfix">
+                    <div class="r" style="margin-right: 40px;">
+                        <ul class="EWM">
+                            <li class="strong">关注蜜芽</li>
+                            <li> <img src="../images/images/3ef603e61e175352d66addb2b55722b2978255723.jpg" alt="手机蜜芽">
+                                <div class="right"> <a href="###" target="_blank"><img
+                                            src="../images/images/index_fd_wb.gif" alt="官方微博"></a>
+                                    <div class="PubBtnHover"> <img src="../images/images/index_fd_wx.gif" alt="官方微信">
+                                        <img src="../images/images/f95d91315ebdb1f30c256c911c300dff979622189.png"
+                                            class="wxmore" alt=""> </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="l" style="margin-left:15px;">
+                        <ul>
+                            <li class="strong">使用帮助</li>
+                            <li><a href="###" rel="nofollow">新手指南</a></li>
+                            <!-- <li><a href="ml" rel="nofollow">蜜粉值体系</a></li> -->
+                            <!-- <li><a href="ml" rel="nofollow">蜜豆体系</a></li> -->
+                            <li><a href="###" rel="nofollow">会员体系</a></li>
+                            <li><a href="###" rel="nofollow">正品承诺</a></li>
+                        </ul>
+                        <ul>
+                            <li class="strong">支付方式</li>
+                            <li><a href="###" rel="nofollow">支付方式</a></li>
+                            <li><a href="###" rel="nofollow">支付流程</a></li>
+                            <li><a href="###" rel="nofollow">跨境进口税</a></li>
+                        </ul>
+                        <ul>
+                            <li class="strong">配送方式</li>
+                            <li><a href="###" rel="nofollow">包邮政策</a></li>
+                            <li><a href="###" rel="nofollow">发货时间</a></li>
+                            <li><a href="###" rel="nofollow">配送区域</a></li>
+                            <li><a href="###" rel="nofollow">验货签收</a></li>
+                        </ul>
+                        <ul>
+                            <li class="strong">售后服务</li>
+                            <li><a href="###" rel="nofollow">退货政策</a></li>
+                            <li><a href="###" rel="nofollow">退货流程</a></li>
+                            <li><a href="###" rel="nofollow">退款方式</a></li>
+                        </ul>
+                        <ul class="NContact" style="width:200px;">
+                            <li class="strong">联系方式</li>
+                            <li>总裁邮箱 ceo@mia.com</li>
+                            <li>商务合作 bd@mia.com</li>
+                            <li>媒体合作 pr@mia.com</li>
+                            <li>招商中心 zhaoshang@mia.com</li>
+                            <li>企业采购 qiye@mia.com</li>
+                            <li>廉政举报 jiancha@mia.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Nlink">
+                <div class="w1000">
+                    <p><a href="###" rel="nofollow">关于蜜芽</a> | <a href="###" rel="nofollow">加入蜜芽</a> | <a href="###"
+                            rel="nofollow">商务合作</a> | <a href="###" rel="nofollow">帮助中心</a> | <a href="###"
+                            rel="nofollow">联系我们</a> | <a href="###" target="_blank">友情链接</a> | <a
+                            href="javascript:void(0)" id="backToMobile" target="_blank" rel="nofollow"
+                            data-domain="mia.com">触屏版</a> | <a href="###" target="_blank" rel="nofollow">媒体报道</a>| <a
+                            href="###" target="_blank" rel="nofollow">营业执照</a>
+                    </p>
+                    京公网安备：11010502027270 | 营业执照：91110105582599307U | 食品经营许可证：SP1101051410296669 | 出版物经营许可证：新出发京零字第朝<a
+                        href="###">160088号</a> <br> 沪ICP备16004431号-2 | 员工舞弊举报：jiancha@mia.com 电话：010-56733467<br>
+                    Copyright © 2019 北京花旺在线商贸有限公司 Mia.com 保留一切权利。<br>
+                    <p class="cert">
+                        <a href="###" target="_blank"><img style="height:33px;"
+                                src="../images/images/786de03b6e7d22ca19e6476983315bc5109099620.jpg" alt=""></a>
+                        <span style="display:inline-block;position:relative;width:auto;"><a
+                                style="display:inline-block;" kx_type="图标式" target="_blank" tabindex="-1" id="kx_verify"
+                                href="###"><img width="80" alt="可信网站" oncontextmenu="return false;" style="border:none;"
+                                    src="../images/images/4528ccca07835b01064270e69e08adc0943841428.png"></a></span>
+                        <img width="105" src="../images/images/alipay.jpg">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="../js/comm.js"></script>
+        <script src="../lib/main.js"></script>
+        <script src="../js/goodsp.js"></script>
+</body>
+
+</html>
