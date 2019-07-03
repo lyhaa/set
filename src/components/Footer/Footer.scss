@@ -1,0 +1,48 @@
+h6,
+p,
+form,
+dl,
+dt,
+dd {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1vw;
+    padding-top: 3vw;
+    border-top: 1px solid #edeff0;
+    background-color: #fff;
+    a{
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        color: #000;
+    }
+}
+img {
+    border-style: none;
+}
+.footer ul{
+    overflow: hidden;
+}
+.footer ul li img{
+    width: 20%;
+}
+.footer ul li p{
+    font-size: 3vw;
+}
+.footer ul li{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}

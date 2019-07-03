@@ -1,0 +1,186 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+dl,
+dt,
+dd {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+ul,li {
+    list-style: none;
+}
+
+img {
+    border-style: none;
+}
+
+.home{
+    margin-bottom: 16vw;
+}
+.home .swiper-pagination-bullets .swiper-pagination-bullet {
+    background: darkolivegreen;
+    border: .5vw solid #fff;
+}
+.home .swiper-container{
+    margin-top: 12vw;
+}
+.home .swiper-container img{
+    width: 100%;
+}
+.home .htitle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #fff;
+}
+.home .htitle h3{
+    text-align: center;
+    line-height: 12vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+.home nav li a .nimg img{
+    width: 100%;
+}
+.home nav li a{
+    display: block;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.home nav{
+    overflow: hidden;
+}
+.home nav li{
+    float: left;
+    width: 14vw;
+    margin: 0 5.5%;
+    margin-top: 3vw;
+}
+.home nav li a .nimg{
+    box-shadow: 0 0.5vw 3vw 0 rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    height: 14vw;
+}
+.home nav li a .ntit{
+    text-align: center;
+    margin-top: 2vw;
+}
+.home nav li a .ntit{   
+    color: #000;
+    font-size: 3vw;
+}
+.home .inxlis h2{
+    font-size: 5vw;
+    font-weight: 600;
+    margin-left: 4vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+.home .inxlis .limg{
+    width: 40%;
+    float: left;
+    font-size: 0;
+}
+.home .inxlis .limg img{
+    width: 100%;
+}
+.home .inxlis ul li{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 4vw;
+}
+.home .inxlis .tit p{
+    color: #c3c7cb;
+    font-size: 2.8vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.home .inxlis .tit h4{
+    font-size: 3.5vw;
+    font-weight: bold;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+.home .inxlis .tit dl{
+    overflow: hidden;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.home .inxlis .tit dl dd{
+    float: left;
+    background-color: #4c84ff;
+    color: #fff;
+    width: 10vw;
+    height: 4.5vw;
+    line-height: 4.5vw;
+    text-align: center;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    font-size: 2.8vw;
+    opacity: .6;
+    margin-right: 2vw;
+}
+.home .inxlis .tit{
+    float: left;
+    width: 57%;
+}
+.home .inxlis .inbot{
+    position: relative;
+    clear: both;
+    background-color: #f6f7f8;
+    padding: 3vw;
+}
+.home .inxlis .intop{
+    overflow: hidden;
+    background-color: #fff;
+}
+.home .ndxlis{
+    overflow: hidden;
+    border-radius: 3vw;
+    box-shadow: 0vw 1.5vw 2.3vw 0.5vw rgba(0, 0, 0, .2);
+}
+.home .inxlis .inbot .population{
+    color: #8d95a1;
+    font-size: 3.4vw;
+    margin-left: 1vw;
+}
+.home .inxlis .inbot .gou{
+    color: #8d95a1;
+    font-size: 3.6vw;
+    margin-left: 3vw;
+}
+.home .inxlis .inbot .pic{
+    font-size: 2.8vw;
+    color: #c3c7cb;
+    text-decoration: line-through;
+    position: absolute;
+        right: 19vw;
+        top: 4vw;
+}
+.home .inxlis .inbot .newpic{
+        font-size: 3.7vw;
+        font-weight: 600;
+            position: absolute;
+            right: 2vw;
+}
+.home .inxlis a{
+    color: #000;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
